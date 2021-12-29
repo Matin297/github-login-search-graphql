@@ -1,6 +1,12 @@
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+In order to be able to use this project please make sure to provide a github access_token in the config/index.js via Settings > Developer Settings > Personal access tokens with these scopes included:
+* read:gpg_key
+* read:org 
+* read:public_key
+* read:repo_hook
+* repo, user
 
 ## Available Scripts
 
